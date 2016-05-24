@@ -1,5 +1,5 @@
 require './application.rb'
-$test_mode = true
+
 describe Application do
 
   specify "test case 1" do
