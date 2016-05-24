@@ -13,7 +13,6 @@ describe CommandDispatcher do
       dispatcher = CommandDispatcher.new(place_first_commands, robot)
       expect(robot).to receive("move").with no_args
       dispatcher.run
-
     end
 
     it "doesn't send messages before place command" do

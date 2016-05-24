@@ -1,5 +1,5 @@
 # Toy Robot application
-The application was built according to the specifications laid out here:
+The application was built according to the specifications laid out here, where you can also find the usage instructions:
 https://github.com/DiscoverRedwolf/toyrobot
 
 To run the application clone the repo, cd into the folder and type the following into the console, make sure you have ruby installed:
