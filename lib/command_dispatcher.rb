@@ -9,6 +9,7 @@ class CommandDispatcher
     @commands.each do |command|
       method_name = command.first
       args = command.last
+      # byebug
       if can_send_command?(method_name)
         @robot.send method_name, *args
       end
